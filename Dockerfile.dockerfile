@@ -6,7 +6,7 @@ WORKDIR /usr/src/app
 
 # Копируем package.json и устанавливаем зависимости
 COPY app/package*.json ./
-RUN npm install
+RUN npm install -g npm
 
 # Копируем весь код приложения
 COPY app/ .
