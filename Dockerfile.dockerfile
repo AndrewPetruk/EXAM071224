@@ -1,13 +1,12 @@
-# Dockerfile
 # Используем официальный образ Node.js
-FROM node:23.3
+FROM node:14
 
 # Устанавливаем рабочую директорию
 WORKDIR /usr/src/app
 
 # Копируем package.json и устанавливаем зависимости
 COPY app/package*.json ./
-RUN npm install -g
+RUN npm install
 
 # Копируем весь код приложения
 COPY app/ .
