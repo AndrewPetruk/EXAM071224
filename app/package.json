@@ -21,12 +21,4 @@
     "nodemon": "^1.14.12",
   },
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gfg/gfg.git" //sample git repo url
-  },
-  "bugs": {
-    "url": "https://github.com/gfg/gfg/issues"
-  },
-  "homepage": "https://github.com/gfg/gfg#readme"
 }
